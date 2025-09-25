@@ -85,15 +85,7 @@ Invoice Generator is a web-based invoice management system that simplifies creat
 - All Invoices  
 - Email Settings  
 
----
 
-## 📌 Future Improvements
-- Online payment gateway integration (Stripe/PayPal)  
-- Multi-currency support  
-- Advanced reporting & analytics  
-- Client portal for invoice tracking  
-
----
 
 ## 📄 License
 This project is licensed under the MIT License.  
