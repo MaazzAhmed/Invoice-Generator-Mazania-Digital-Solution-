@@ -1,0 +1,141 @@
+@media only screen and (max-width : 1299px) {
+               
+              }
+              
+              @media only screen and (max-width : 1199px) {
+           
+               .col-md-6.text-end input, .col-md-6.text-end div div, .col-md-6.text-end div span.Paid {
+                              width: 100%;
+               }
+               #invoice-no-label{
+                              width: 100% !important;
+               }
+               
+}
+
+@media only screen and (max-width : 1099px) {
+           
+               
+}
+
+@media only screen and (max-width : 1024px) {
+               
+               i.remove-btn{
+                 visibility: visible;
+               }
+
+              }
+           
+              @media only screen and (max-width : 991px) {
+           
+               .Date-Invoice , .Notes-Total , .Total-Div div{
+                 flex-wrap: wrap;
+                 gap: 10px !important;
+               } 
+               .append{
+                              padding-right: 10px;
+               }
+               .append-table{
+                              width: calc(100% - 10px);
+               }
+              }
+           
+              @media only screen and (max-width : 767px) {
+               .Notes-Div , .Total-Div{
+                 width: 100%;
+               }
+               #Invoice_Preview {
+                 padding: 20px;
+               }
+               .append-invoice {
+                 flex-wrap: wrap;
+           
+                 & div{
+                   width: 100% !important;
+                   text-align: left !important;
+               }
+             }
+             .append{
+               display: block;
+               width: 100%;
+               padding: 30px 15px 15px;
+               border: 2px solid #000;
+               border-radius: 10px;
+               margin: 10px 0px;
+
+               &
+               div , .Amount{
+               width: 100% !important;
+               margin: 10px 0px;
+             }
+
+             &
+               i.remove-btn{
+               top: 5px;
+               right: 5px;
+               padding: 5px;
+               background: #1f2e38;
+               color: #fff;
+               border-radius: 5px;
+             }
+}
+#img-preview {
+               display: none;
+               width: 120px;
+               height: 120px;
+}
+#cross-icon{
+               font-size: 16px;
+}
+.col-md-2{
+               margin-bottom: 30px;
+}
+textarea{
+               height: 100px;
+}
+.download-btn , .preview-download{
+               position: fixed;
+               bottom: 0;
+               left: 0;
+               padding: 10px 0px;
+               background: #fff;
+               border-top: 3px solid;
+               width: 100%;
+               margin: 0 auto;
+               text-align: center;
+}
+
+.Preview-Page{
+               padding-bottom: 50px;
+}
+
+.preview-download{
+               padding: 10px 30px;
+}
+
+.first-row{
+               flex-direction: column-reverse;
+}
+
+#logo_img {
+               width: 120px;
+               height: 120px;
+           }
+           .Invoice-From-To{
+               flex-wrap: wrap;
+               gap: 10px ;
+           }
+           .append-table{
+            display: none;
+           }
+           .col-md-6.text-end:last-child{
+            margin-top: 30px;
+           }
+           .append-container{
+            margin-top: 30px;
+           }
+           i#removeTax, i#removeShipping, i#removeDiscount{
+            visibility: visible;
+           }
+              }
+           
